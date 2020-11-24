@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ul {
+list-style-type: none;
+display: flex;
+justify-content: space-evenly;
+padding: 0;
+margin: 0px 100px;
+height: fit-content;
+align-items: center;
+}
+
+#start {
+ /*    display: flex;
+    justify-content: center; */
+text-decoration: none;
+margin: 0px 10%;
+border: solid 3px rgba(216, 228, 58, 1);
+border-radius: 20px 20px 1px 1px;
+padding: 10px 40px;
+border-bottom-width: 0px;
+}
+#start:hover {
+    background:  rgba(216, 228, 58, 0.3);
+    
+}
+#html {
+ /*    display: flex;
+    justify-content: center; */
+text-decoration: none;
+margin: 0px 10%;
+border: solid 3px rgba(27, 150, 233, 1);
+border-radius: 20px 20px 1px 1px;
+padding: 10px 40px;
+border-bottom-color: white;
+border-bottom-width: 0px;
+}
+#html:hover {
+    background: rgba(27, 150, 233, 0.3);
+    
+}
+
+#css {
+    /* display: flex;
+    justify-content: center; */
+text-decoration: none;
+margin: 0px 10%;
+border: solid 3px rgba(228, 56, 213, 1);
+border-radius: 20px 20px 1px 1px;
+padding: 10px 40px;
+border-bottom-color: white;
+border-bottom-width: 0px;
+}
+#css:hover {
+    background:  rgba(228, 56, 213, 0.3);
+}
+#test:hover {
+background:rgba(238, 123, 47, 1) ;
+
+}
+#testprotokoll {
+ /*    display: flex;
+    justify-content: center; */
+text-decoration: none;
+margin: 0px 10%;
+border: solid 3px rgba(238, 123, 47, 1);
+border-radius: 20px 20px 1px 1px;
+padding: 10px 40px;
+border-bottom-color: white;
+border-bottom-width: 0px;
+
+}
+#testprotokoll:hover {
+    background: rgba(238, 123, 47, 0.3);}
+#mainindex {
+
+    border-top:solid 3px rgba(216, 228, 58, 1) ;
+}
+#mainhtml {border-top:solid 3px rgba(27, 150, 233, 1);}
+
+
+#maincss {
+border-top:solid 3px rgba(228, 56, 213, 1);
+}
+
+#maintest {
+border-top:solid 3px rgba(238, 123, 47, 1) ;
+}
+
+head {
+    font-family: 'Roboto', sans-serif;
+
+}
+a {
+    text-decoration: none;
+color: black;
+font-weight: bold;
+
+
+}
+a:hover {
+    text-decoration: underline;
+color: black;
+font-weight: bold;
+
+}
+
+.startactive {
+    background:  rgba(216, 228, 58, 0.3);
+
+
+}
+.htmlactive {
+    background:  rgba(27, 150, 233, 0.3);
+}
+.cssactive {
+background: rgba(228, 56, 213, 0.3);
+}
+.testactive {
+background: rgba(238, 123, 47, 0.3);
+
+}
